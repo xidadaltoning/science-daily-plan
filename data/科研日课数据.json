@@ -1,0 +1,585 @@
+{
+ "version": 1,
+ "settings": {
+  "name": "",
+  "field": "",
+  "dailyFocusGoal": 180,
+  "dailyTaskGoal": 5,
+  "weeklyTaskGoal": 25,
+  "theme": "auto",
+  "accent": "indigo",
+  "pomodoro": {
+   "work": 25,
+   "short": 5,
+   "long": 15,
+   "longEvery": 4,
+   "sound": true,
+   "autoNext": false
+  },
+  "lastBackupAt": null,
+  "createdAt": 1791727301378
+ },
+ "tasks": [
+  {
+   "id": "mv3w8041tplxq",
+   "title": "完成 96 孔板加样并读板",
+   "date": "2026-10-11",
+   "start": "09:30",
+   "end": "12:00",
+   "category": "实验",
+   "priority": 3,
+   "est": 150,
+   "done": false,
+   "doneAt": null,
+   "notes": "注意每组 3 复孔，避免气泡",
+   "expId": "mv3w8039eacec",
+   "paperId": "",
+   "order": 82161,
+   "createdAt": 1791727382161,
+   "updatedAt": 1791727382161
+  },
+  {
+   "id": "mv3w8046usc04",
+   "title": "精读 Nanozyme 综述第 4 节",
+   "date": "2026-10-11",
+   "start": "14:00",
+   "end": "15:00",
+   "category": "文献",
+   "priority": 2,
+   "est": 60,
+   "done": false,
+   "doneAt": null,
+   "notes": "",
+   "expId": "",
+   "paperId": "mv3w803lk2595",
+   "order": 82166,
+   "createdAt": 1791727382166,
+   "updatedAt": 1791727382166
+  },
+  {
+   "id": "mv3w8049s7uab",
+   "title": "整理上周酶活数据，画柱状图",
+   "date": "2026-10-11",
+   "start": "",
+   "end": "",
+   "category": "数据",
+   "priority": 2,
+   "est": 90,
+   "done": false,
+   "doneAt": null,
+   "notes": "",
+   "expId": "",
+   "paperId": "",
+   "order": 82169,
+   "createdAt": 1791727382169,
+   "updatedAt": 1791727382169
+  },
+  {
+   "id": "mv3w804c6z994",
+   "title": "撰写论文方法部分草稿",
+   "date": "2026-10-11",
+   "start": "",
+   "end": "",
+   "category": "写作",
+   "priority": 1,
+   "est": 60,
+   "done": false,
+   "doneAt": null,
+   "notes": "",
+   "expId": "",
+   "paperId": "",
+   "order": 82172,
+   "createdAt": 1791727382172,
+   "updatedAt": 1791727382172
+  },
+  {
+   "id": "mv3w804g1fshh",
+   "title": "组会汇报 PPT 初稿",
+   "date": "2026-10-12",
+   "start": "10:00",
+   "end": "12:00",
+   "category": "组会",
+   "priority": 3,
+   "est": 120,
+   "done": false,
+   "doneAt": null,
+   "notes": "",
+   "expId": "",
+   "paperId": "",
+   "order": 82176,
+   "createdAt": 1791727382176,
+   "updatedAt": 1791727382176
+  },
+  {
+   "id": "mv3w804jo3i8u",
+   "title": "细胞传代",
+   "date": "2026-10-10",
+   "start": "15:00",
+   "end": "16:00",
+   "category": "实验",
+   "priority": 2,
+   "est": 60,
+   "done": true,
+   "doneAt": 1791640982179,
+   "notes": "",
+   "expId": "",
+   "paperId": "",
+   "order": 82179,
+   "createdAt": 1791727382179,
+   "updatedAt": 1791727382179
+  },
+  {
+   "id": "mv3w804mq6axq",
+   "title": "阅读 AlphaFold 综述",
+   "date": "2026-10-09",
+   "start": "",
+   "end": "",
+   "category": "文献",
+   "priority": 2,
+   "est": 45,
+   "done": true,
+   "doneAt": 1791554582182,
+   "notes": "",
+   "expId": "",
+   "paperId": "",
+   "order": 82182,
+   "createdAt": 1791727382182,
+   "updatedAt": 1791727382182
+  }
+ ],
+ "routines": [
+  {
+   "id": "mv3w8031xvw8p",
+   "title": "每日文献精读 1 篇",
+   "category": "文献",
+   "start": "09:00",
+   "end": "09:40",
+   "repeat": "daily",
+   "active": true,
+   "createdAt": 1791727382125
+  },
+  {
+   "id": "mv3w8033o3svb",
+   "title": "整理实验记录与数据",
+   "category": "数据",
+   "start": "21:00",
+   "end": "21:30",
+   "repeat": "daily",
+   "active": true,
+   "createdAt": 1791727382127
+  },
+  {
+   "id": "mv3w8036yuiuh",
+   "title": "组会汇报准备",
+   "category": "组会",
+   "start": "16:00",
+   "end": "17:00",
+   "repeat": "weekdays",
+   "active": true,
+   "createdAt": 1791727382130
+  }
+ ],
+ "routineLog": {},
+ "experiments": [
+  {
+   "id": "mv3w803jayjew",
+   "title": "小鼠肝组织 HE 染色切片",
+   "status": "planned",
+   "tags": [
+    "动物实验",
+    "病理"
+   ],
+   "objective": "评估处理组肝组织形态学变化。",
+   "hypothesis": "高剂量组出现轻度肝细胞气球样变。",
+   "materials": "",
+   "protocol": "",
+   "steps": [
+    {
+     "id": "mv3w803j9y1e2",
+     "text": "取材固定（4% 多聚甲醛）",
+     "done": false
+    },
+    {
+     "id": "mv3w803j1rjgq",
+     "text": "脱水、包埋、切片",
+     "done": false
+    }
+   ],
+   "results": "",
+   "conclusion": "",
+   "startDate": "2026-10-13",
+   "endDate": "",
+   "paperIds": [],
+   "logs": [],
+   "createdAt": 1791727382143,
+   "updatedAt": 1791727382143
+  },
+  {
+   "id": "mv3w8039eacec",
+   "title": "LDH 纳米酶活性验证（批次 A）",
+   "status": "running",
+   "tags": [
+    "纳米酶",
+    "催化"
+   ],
+   "objective": "验证批次 A 材料在不同 pH 下的类过氧化物酶活性差异。",
+   "hypothesis": "pH 5.0 条件下活性最强，pH 7.4 显著下降。",
+   "materials": "LDH 样品 A（2 mg/mL）、TMB（10 mM）、H2O2（100 mM）、乙酸缓冲液",
+   "protocol": "1. 配制不同 pH 缓冲液；2. 96 孔板加入样品与底物；3. 37℃ 孵育 10 min；4. 652 nm 读板。",
+   "steps": [
+    {
+     "id": "mv3w8039gp6dw",
+     "text": "配制 pH 3.0-8.0 系列缓冲液",
+     "done": true
+    },
+    {
+     "id": "mv3w803922gn0",
+     "text": "样品超声分散 10 min",
+     "done": true
+    },
+    {
+     "id": "mv3w80390w64p",
+     "text": "96 孔板加样，每组 3 复孔",
+     "done": false
+    },
+    {
+     "id": "mv3w8039b5swq",
+     "text": "酶标仪读数并导出数据",
+     "done": false
+    }
+   ],
+   "results": "",
+   "conclusion": "",
+   "startDate": "2026-10-06",
+   "endDate": "",
+   "paperIds": [],
+   "logs": [
+    {
+     "id": "mv3w803gbsq8y",
+     "ts": 1791727382140,
+     "text": "预实验初步显示 pH 5 组显色最快，与假设一致。"
+    },
+    {
+     "id": "mv3w803c3ayfz",
+     "ts": 1791727382136,
+     "text": "完成缓冲液配制与样品分散，样品状态均一，无可见团聚。"
+    }
+   ],
+   "createdAt": 1791727382133,
+   "updatedAt": 1791727382140
+  }
+ ],
+ "papers": [
+  {
+   "id": "mv3w803t5noe8",
+   "title": "Machine learning for protein structure prediction: from AlphaFold to next generation",
+   "authors": "Chen X., Kumar R.",
+   "journal": "Science",
+   "year": "2025",
+   "volume": "",
+   "pages": "",
+   "doi": "",
+   "url": "",
+   "tags": [
+    "机器学习",
+    "结构生物学"
+   ],
+   "status": "read",
+   "rating": 4,
+   "summary": "综述了从 AlphaFold2 到多体复合物预测的演进路径。",
+   "keyPoints": "1. 多聚体接口预测误差仍是瓶颈；\n2. 实验验证数据的质量决定上限。",
+   "questions": "",
+   "quotes": "",
+   "progress": 100,
+   "logs": [],
+   "expIds": [],
+   "addedAt": 1791727382153,
+   "startedAt": null,
+   "readAt": 1791554582153
+  },
+  {
+   "id": "mv3w803o6h3vr",
+   "title": "Single-cell transcriptomics of tumor microenvironment in liver cancer",
+   "authors": "Wang L., Zhao Q.",
+   "journal": "Nature Communications",
+   "year": "2023",
+   "volume": "",
+   "pages": "",
+   "doi": "",
+   "url": "",
+   "tags": [
+    "单细胞",
+    "肿瘤微环境"
+   ],
+   "status": "todo",
+   "rating": 0,
+   "summary": "",
+   "keyPoints": "",
+   "questions": "",
+   "quotes": "",
+   "progress": 0,
+   "logs": [],
+   "expIds": [],
+   "addedAt": 1791727382148,
+   "startedAt": null,
+   "readAt": null
+  },
+  {
+   "id": "mv3w803lk2595",
+   "title": "Nanozyme-based colorimetric biosensors: mechanisms and applications",
+   "authors": "Zhang Y., Liu H., Chen W.",
+   "journal": "Chemical Society Reviews",
+   "year": "2024",
+   "volume": "",
+   "pages": "",
+   "doi": "10.1039/D3CS00000X",
+   "url": "",
+   "tags": [
+    "综述",
+    "纳米酶"
+   ],
+   "status": "reading",
+   "rating": 5,
+   "summary": "系统总结了纳米酶显色传感的催化机制（POD、OXD、CAT 类）以及在葡萄糖、H2O2 检测中的应用。",
+   "keyPoints": "1. 比色法灵敏度受限但操作简单，适合基层检测；\n2. 双酶级联策略可显著降低检测限；\n3. 底物亲和力（Km）是关键评价指标。",
+   "questions": "TMB 体系在酸性条件下的稳定性数据是否充分？",
+   "quotes": "",
+   "progress": 45,
+   "logs": [
+    {
+     "id": "mv3w803yv7oeg",
+     "ts": 1791727382158,
+     "minutes": 35,
+     "note": "读完第 3 节，梳理了双酶级联的设计思路。"
+    }
+   ],
+   "expIds": [],
+   "addedAt": 1791727382145,
+   "startedAt": null,
+   "readAt": null
+  }
+ ],
+ "notes": [
+  {
+   "id": "mv3w804ul4nkh",
+   "title": "",
+   "content": "论文讨论部分可以围绕「酸性微环境对催化活性的影响」展开。",
+   "tags": [],
+   "pinned": false,
+   "createdAt": 1791727382190
+  },
+  {
+   "id": "mv3w804q2gg3u",
+   "title": "实验想法",
+   "content": "用双酶级联（GOx + 纳米酶）替换单酶体系，可能把检测限降低一个数量级，下周试一下。",
+   "tags": [],
+   "pinned": false,
+   "createdAt": 1791727382186
+  }
+ ],
+ "reviews": {
+  "2026-W40": {
+   "wins": "1. 完成 pH 系列预实验，结果符合预期；\n2. 读完 2 篇纳米酶相关综述，梳理出 3 个可尝试的改进方向。",
+   "problems": "1. 96 孔板加样时气泡影响读数稳定性；\n2. 晚间效率偏低，文献阅读常被拖延。",
+   "plans": "1. 完成酶活正式实验并统计；\n2. 完成方法部分初稿；\n3. 晚间 21:00 后只做数据整理与速记。",
+   "updatedAt": 1791727382202
+  }
+ },
+ "sessions": [
+  {
+   "id": "mv3w803y53yk1",
+   "date": "2026-10-11",
+   "minutes": 35,
+   "category": "文献",
+   "taskId": "",
+   "paperId": "mv3w803lk2595",
+   "ts": 1791727382158
+  },
+  {
+   "id": "mv3w8056bogyf",
+   "date": "2026-10-11",
+   "minutes": 25,
+   "category": "数据",
+   "taskId": "",
+   "paperId": "",
+   "ts": 1791723782202
+  },
+  {
+   "id": "mv3w8056u4el3",
+   "date": "2026-10-11",
+   "minutes": 50,
+   "category": "文献",
+   "taskId": "",
+   "paperId": "mv3w803lk2595",
+   "ts": 1791720182202
+  },
+  {
+   "id": "mv3w8056aha5c",
+   "date": "2026-10-10",
+   "minutes": 75,
+   "category": "实验",
+   "taskId": "",
+   "paperId": "",
+   "ts": 1791727382202
+  },
+  {
+   "id": "mv3w8056d6k9q",
+   "date": "2026-10-10",
+   "minutes": 25,
+   "category": "写作",
+   "taskId": "",
+   "paperId": "",
+   "ts": 1791727382202
+  },
+  {
+   "id": "mv3w8056ik4g7",
+   "date": "2026-10-09",
+   "minutes": 50,
+   "category": "文献",
+   "taskId": "",
+   "paperId": "",
+   "ts": 1791727382202
+  },
+  {
+   "id": "mv3w8056w379t",
+   "date": "2026-10-08",
+   "minutes": 100,
+   "category": "实验",
+   "taskId": "",
+   "paperId": "",
+   "ts": 1791727382202
+  },
+  {
+   "id": "mv3w8056pqovv",
+   "date": "2026-10-07",
+   "minutes": 60,
+   "category": "组会",
+   "taskId": "",
+   "paperId": "",
+   "ts": 1791727382202
+  }
+ ],
+ "goals": [
+  {
+   "id": "mv3w8053z6zih",
+   "title": "完成文献综述第二章",
+   "type": "论文",
+   "status": "done",
+   "start": "2026-08-12",
+   "due": "2026-10-03",
+   "desc": "综述第二章：纳米酶催化机制与调控策略。",
+   "progress": 0,
+   "autoProgress": true,
+   "milestones": [
+    {
+     "id": "mv3w8053l8ip6",
+     "title": "整理 30 篇核心文献",
+     "date": "2026-08-27",
+     "done": true
+    },
+    {
+     "id": "mv3w8053ypn6f",
+     "title": "完成章节初稿",
+     "date": "2026-09-21",
+     "done": true
+    },
+    {
+     "id": "mv3w8053y0teo",
+     "title": "导师修改并定稿",
+     "date": "2026-10-02",
+     "done": true
+    }
+   ],
+   "expIds": [],
+   "paperIds": [],
+   "createdAt": 1791727382199,
+   "updatedAt": 1791727382199,
+   "doneAt": null
+  },
+  {
+   "id": "mv3w8050eujai",
+   "title": "掌握单细胞数据分析流程",
+   "type": "学习",
+   "status": "active",
+   "start": "2026-09-29",
+   "due": "2026-12-12",
+   "desc": "从 Seurat 基础流程到轨迹分析，最终能独立处理自己的样本数据。",
+   "progress": 0,
+   "autoProgress": true,
+   "milestones": [
+    {
+     "id": "mv3w80509oeul",
+     "title": "精读 5 篇单细胞方法文献",
+     "date": "2026-10-09",
+     "done": true
+    },
+    {
+     "id": "mv3w80500dnxt",
+     "title": "复现公开数据集分析流程",
+     "date": "2026-10-29",
+     "done": false
+    },
+    {
+     "id": "mv3w805051r3l",
+     "title": "迁移到自己的样本数据",
+     "date": "2026-11-25",
+     "done": false
+    }
+   ],
+   "expIds": [],
+   "paperIds": [
+    "mv3w803o6h3vr"
+   ],
+   "createdAt": 1791727382196,
+   "updatedAt": 1791727382196,
+   "doneAt": null
+  },
+  {
+   "id": "mv3w804x0h76a",
+   "title": "完成纳米酶传感论文投稿",
+   "type": "投稿",
+   "status": "active",
+   "start": "2026-09-20",
+   "due": "2026-11-28",
+   "desc": "把 pH 系列与选择性实验结果整理成文，目标期刊 Chemical Communications。",
+   "progress": 0,
+   "autoProgress": true,
+   "milestones": [
+    {
+     "id": "mv3w804xg3uu4",
+     "title": "完成酶活正式实验",
+     "date": "2026-10-08",
+     "done": true
+    },
+    {
+     "id": "mv3w804xszhzq",
+     "title": "补做干扰离子选择性实验",
+     "date": "2026-10-17",
+     "done": false
+    },
+    {
+     "id": "mv3w804x081g4",
+     "title": "完成正文初稿",
+     "date": "2026-10-31",
+     "done": false
+    },
+    {
+     "id": "mv3w804x4xo6u",
+     "title": "投稿并处理返修",
+     "date": "2026-11-25",
+     "done": false
+    }
+   ],
+   "expIds": [
+    "mv3w8039eacec"
+   ],
+   "paperIds": [],
+   "createdAt": 1791727382193,
+   "updatedAt": 1791727382193,
+   "doneAt": null
+  }
+ ],
+ "meta": {
+  "savedAt": 1791727382465
+ }
+}

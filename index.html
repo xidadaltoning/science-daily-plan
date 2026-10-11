@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light" data-accent="indigo">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>科研日课 · Research Daily</title>
+<meta name="description" content="科研日程 · 实验计划 · 文献阅读 · 数据复盘">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+<script>
+(function () {
+  try {
+    var raw = localStorage.getItem('research-daily-v1');
+    var s = raw ? JSON.parse(raw) : {};
+    var t = (s.settings && s.settings.theme) || 'auto';
+    var dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.dataset.theme = t === 'auto' ? (dark ? 'dark' : 'light') : t;
+    if (s.settings && s.settings.accent) document.documentElement.dataset.accent = s.settings.accent;
+  } catch (e) { document.documentElement.dataset.theme = 'light'; }
+})();
+</script>
+</head>
+<body>
+<div class="app" id="app">
+  <div class="scrim" id="scrim"></div>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-logo">研</div>
+      <div class="brand-text">
+        <h1>科研日课</h1>
+        <span>Research Daily</span>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav"></nav>
+
+    <div class="sidebar-card" id="sideStreak"></div>
+
+    <div class="sidebar-footer">
+      <button class="side-btn" id="btnTheme" title="切换主题"></button>
+      <button class="side-btn" id="btnHelp" title="快捷键与帮助">?</button>
+      <button class="side-btn" id="btnBackup" title="导出备份"></button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <button class="icon-btn only-mobile" id="btnMenu" aria-label="菜单"></button>
+      <div class="topbar-title">
+        <h2 id="pageTitle">今日</h2>
+        <span id="pageSubtitle"></span>
+      </div>
+      <button class="search-btn" id="btnSearch">
+        <span class="search-btn-inner"></span>
+      </button>
+      <div class="topbar-actions">
+        <button class="btn btn-ghost" id="btnQuickExport" title="导出今日/本周计划为 Markdown"></button>
+        <button class="btn btn-primary" id="btnNew">
+          <span class="btn-icon"></span><span>新建</span>
+        </button>
+      </div>
+    </header>
+    <section class="view" id="view"></section>
+  </main>
+</div>
+
+<div id="modalRoot"></div>
+<div id="toastRoot" class="toast-root"></div>
+<div id="menuRoot"></div>
+
+<script src="js/utils.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/store.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/pomodoro.js"></script>
+<script src="js/views/today.js"></script>
+<script src="js/views/schedule.js"></script>
+<script src="js/views/goals.js"></script>
+<script src="js/views/experiments.js"></script>
+<script src="js/views/library.js"></script>
+<script src="js/views/insights.js"></script>
+<script src="js/views/settings.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
+

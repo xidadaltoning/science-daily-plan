@@ -1,0 +1,34 @@
+{
+ "version": 1,
+ "settings": {
+  "name": "",
+  "field": "",
+  "dailyFocusGoal": 180,
+  "dailyTaskGoal": 5,
+  "weeklyTaskGoal": 25,
+  "theme": "auto",
+  "accent": "indigo",
+  "pomodoro": {
+   "work": 25,
+   "short": 5,
+   "long": 15,
+   "longEvery": 4,
+   "sound": true,
+   "autoNext": false
+  },
+  "lastBackupAt": null,
+  "createdAt": 1791727301378
+ },
+ "tasks": [],
+ "routines": [],
+ "routineLog": {},
+ "experiments": [],
+ "papers": [],
+ "notes": [],
+ "reviews": {},
+ "sessions": [],
+ "goals": [],
+ "meta": {
+  "savedAt": 0
+ }
+}
