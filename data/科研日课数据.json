@@ -6,7 +6,7 @@
   "dailyFocusGoal": 180,
   "dailyTaskGoal": 5,
   "weeklyTaskGoal": 25,
-  "theme": "auto",
+  "theme": "dark",
   "accent": "indigo",
   "pomodoro": {
    "work": 25,
@@ -20,78 +20,6 @@
   "createdAt": 1791727301378
  },
  "tasks": [
-  {
-   "id": "mv3w8041tplxq",
-   "title": "完成 96 孔板加样并读板",
-   "date": "2026-10-11",
-   "start": "09:30",
-   "end": "12:00",
-   "category": "实验",
-   "priority": 3,
-   "est": 150,
-   "done": false,
-   "doneAt": null,
-   "notes": "注意每组 3 复孔，避免气泡",
-   "expId": "mv3w8039eacec",
-   "paperId": "",
-   "order": 82161,
-   "createdAt": 1791727382161,
-   "updatedAt": 1791727382161
-  },
-  {
-   "id": "mv3w8046usc04",
-   "title": "精读 Nanozyme 综述第 4 节",
-   "date": "2026-10-11",
-   "start": "14:00",
-   "end": "15:00",
-   "category": "文献",
-   "priority": 2,
-   "est": 60,
-   "done": false,
-   "doneAt": null,
-   "notes": "",
-   "expId": "",
-   "paperId": "mv3w803lk2595",
-   "order": 82166,
-   "createdAt": 1791727382166,
-   "updatedAt": 1791727382166
-  },
-  {
-   "id": "mv3w8049s7uab",
-   "title": "整理上周酶活数据，画柱状图",
-   "date": "2026-10-11",
-   "start": "",
-   "end": "",
-   "category": "数据",
-   "priority": 2,
-   "est": 90,
-   "done": false,
-   "doneAt": null,
-   "notes": "",
-   "expId": "",
-   "paperId": "",
-   "order": 82169,
-   "createdAt": 1791727382169,
-   "updatedAt": 1791727382169
-  },
-  {
-   "id": "mv3w804c6z994",
-   "title": "撰写论文方法部分草稿",
-   "date": "2026-10-11",
-   "start": "",
-   "end": "",
-   "category": "写作",
-   "priority": 1,
-   "est": 60,
-   "done": false,
-   "doneAt": null,
-   "notes": "",
-   "expId": "",
-   "paperId": "",
-   "order": 82172,
-   "createdAt": 1791727382172,
-   "updatedAt": 1791727382172
-  },
   {
    "id": "mv3w804g1fshh",
    "title": "组会汇报 PPT 初稿",
@@ -148,26 +76,6 @@
   }
  ],
  "routines": [
-  {
-   "id": "mv3w8031xvw8p",
-   "title": "每日文献精读 1 篇",
-   "category": "文献",
-   "start": "09:00",
-   "end": "09:40",
-   "repeat": "daily",
-   "active": true,
-   "createdAt": 1791727382125
-  },
-  {
-   "id": "mv3w8033o3svb",
-   "title": "整理实验记录与数据",
-   "category": "数据",
-   "start": "21:00",
-   "end": "21:30",
-   "repeat": "daily",
-   "active": true,
-   "createdAt": 1791727382127
-  },
   {
    "id": "mv3w8036yuiuh",
    "title": "组会汇报准备",
@@ -580,6 +488,6 @@
   }
  ],
  "meta": {
-  "savedAt": 1791727382465
+  "savedAt": 1791727956515
  }
 }
